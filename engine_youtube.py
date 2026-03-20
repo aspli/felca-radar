@@ -34,6 +34,8 @@ DICIONARIO_RISCO = {
         "rebolo": 5,
         "quicando": 5,
         "de quatro": 10,
+        "fuder": 10,
+        "porra": 7,
         "raba": 5,
         "calcinha": 5
         # Adicione mais termos conforme mapear as letras
