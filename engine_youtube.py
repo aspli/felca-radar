@@ -14,13 +14,28 @@ DICIONARIO_RISCO = {
         "trem bala": 3,
         "fuzil": 3,
         "biqueira": 2,
+        "fogueteiro": 4,
+        "mochila": 4,
+        "mochilinha": 4,
+        "glock": 4,
+        "radin": 4,
         "trafico": 4
     },
     "erotizacao_infantil": {
         "novinha": 4,
         "menina": 2,
         "sentando": 3,
+        "safado": 3,
         "novinha senta": 5,
+        "lambendo": 5,
+        "lamber": 5,
+        "chupar": 5,
+        "satisfazer": 5,
+        "rebolo": 5,
+        "quicando": 5,
+        "de quatro": 10,
+        "raba": 5,
+        "calcinha": 5
         # Adicione mais termos conforme mapear as letras
     }
 }
@@ -78,7 +93,7 @@ if __name__ == "__main__":
     
     # Lista de vídeos de teste (você pode colocar URLs reais aqui)
     lista_teste = [
-        "https://www.youtube.com/watch?v=ExemploVideo1", # Substitua por um clipe de funk problemático
+        "https://www.youtube.com/watch?v=xAkFfiPID08", # Substitua por um clipe de funk problemático
         "https://www.youtube.com/watch?v=ExemploVideo2"  # Substitua por um vídeo normal
     ]
 
