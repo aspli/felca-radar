@@ -1,10 +1,20 @@
+import os
+from dotenv import load_dotenv
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import lyricsgenius
 import json
 import re
 
-# <<< .ENV AQUI >>>
+# Carrega as variáveis do arquivo .env para o sistema
+load_dotenv()
+
+# ==========================================
+# 1. ACESSANDO AS CHAVES PELO .ENV
+# ==========================================
+SPOTIPY_CLIENT_ID = os.getenv('SPOTIPY_CLIENT_ID')
+SPOTIPY_CLIENT_SECRET = os.getenv('SPOTIPY_CLIENT_SECRET')
+GENIUS_ACCESS_TOKEN = os.getenv('GENIUS_ACCESS_TOKEN')
 
 # ==========================================
 # 2. CONFIGURAÇÃO DAS APIs E DICIONÁRIO
