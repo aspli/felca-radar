@@ -63,6 +63,13 @@ DICIONARIO_RISCO = {
         "fuder": 10,
         "porra": 7,
         "raba": 5,
+        "pau": 5,
+        "bucheta": 5,
+        "xoxota": 5,
+        "pinto": 5,
+        "piru": 5,
+        "xota": 5,
+        "xibiu": 5,
         "calcinha": 5
         # Adicione mais termos conforme mapear as letras
     }
