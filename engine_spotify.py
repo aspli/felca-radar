@@ -4,15 +4,7 @@ import lyricsgenius
 import json
 import re
 
-# ==========================================
-# 1. SUAS CHAVES DE API (Você precisará gerar depois)
-# ==========================================
-# Crie em: developer.spotify.com
-SPOTIPY_CLIENT_ID = '42384f5714744fa7a1ed4125cf01bd29'
-SPOTIPY_CLIENT_SECRET = 'c2ca580fa53e43ceabf901232408ca58'
-
-# Crie em: genius.com/api-clients
-GENIUS_ACCESS_TOKEN = 'vQss2tNCpI6ACnmvE5AS1Ml2GG3giQ-Rup7YOLaPD9GLaNbdsopvMwKH-ssiAsOK'
+# <<< .ENV AQUI >>>
 
 # ==========================================
 # 2. CONFIGURAÇÃO DAS APIs E DICIONÁRIO
@@ -68,8 +60,20 @@ DICIONARIO_RISCO = {
         "xoxota": 5,
         "pinto": 5,
         "piru": 5,
+        "piroca": 10,
         "xota": 5,
         "xibiu": 5,
+        "sem calcinha": 10,
+        "piranha": 7,
+        "vagabunda": 7,
+        "vagabundo": 7,
+        "trepar": 7,
+        "xereca": 10,
+        "xaninha": 10,
+        "trepa-trepa": 10,
+        "putaria": 7,
+        "trair": 7,
+        "sacanagem": 5,
         "calcinha": 5
         # Adicione mais termos conforme mapear as letras
     }
